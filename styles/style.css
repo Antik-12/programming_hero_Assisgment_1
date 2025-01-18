@@ -381,6 +381,60 @@ img {
   background-color: #004d3a; /* Darker shade on hover */
 }
 
+ .subscriber {
+  width: 100%; 
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.subscriber-1 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: row; 
+  /* gap: 10px; */
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.subscriber-input{
+  
+    /* width: 80%; 
+    max-width: 600px; */
+    width: 600px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+  
+}
+
+.subscriber-btn {
+  width: 150px; /* Same width as the donate button */
+  height: 45px; /* Same height as the donate button */
+  background-color: #006A50; /* Matching button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.subscriber-btn:hover {
+  background-color: #004d3a; /* Darker shade on hover */
+}
+
+.subscriber{
+  background-color: #C6E4D6;
+  border-radius: 24px;
+}
+
+
 
 
 
